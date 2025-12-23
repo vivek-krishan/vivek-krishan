@@ -1,9 +1,7 @@
 
 
 ### Vivek Krishan  
-<div align="center">
-<img src="https://ik.imagekit.io/VivekObroy/Portfolio%20Images/Me.png?updatedAt=1766473521621" align="center" style="width: 100%" />
-</div>  
+<img src="https://ik.imagekit.io/VivekObroy/Portfolio%20Images/Me.png?updatedAt=1766473521621" align="left" height="200" width="200" />  
   
 
 ### <div align="center">I'm Vivek, a full-time full-stack web developer 👨‍💻 working remotely since 2025 🚀</div>  
@@ -117,10 +115,7 @@
 
 <br/>  
 
-
-
-### Spotify  
-<div align="center"><img src="https://rishavanand.github.io/static/images/spotify-readme-example.svg" /></div>  
+  
 
 <br/>  
 
