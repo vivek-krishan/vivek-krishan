@@ -1,0 +1,209 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "ctrl+i",
+    "command": "cursorLineEndSelect",
+  },
+  {
+    "key": "shift+space",
+    "command": "cursorRight",
+    "when": "textInputFocus",
+  },
+  {
+    "key": "right",
+    "command": "-cursorRight",
+    "when": "textInputFocus",
+  },
+  {
+    "key": "f1 f2",
+    "command": "list.expand",
+    "when": "listFocus && treeElementCanExpand && !inputFocus || listFocus && treeElementHasChild && !inputFocus",
+  },
+  {
+    "key": "right",
+    "command": "-list.expand",
+    "when": "listFocus && treeElementCanExpand && !inputFocus || listFocus && treeElementHasChild && !inputFocus",
+  },
+  {
+    "key": "left",
+    "command": "nextCompressedFolder",
+    "when": "explorerViewletCompressedFocus && explorerViewletVisible && filesExplorerFocus && !explorerViewletCompressedLastFocus && !inputFocus",
+  },
+  {
+    "key": "right",
+    "command": "-nextCompressedFolder",
+    "when": "explorerViewletCompressedFocus && explorerViewletVisible && filesExplorerFocus && !explorerViewletCompressedLastFocus && !inputFocus",
+  },
+  {
+    "key": "alt+k",
+    "command": "cursorDown",
+    "when": "textInputFocus",
+  },
+  {
+    "key": "down",
+    "command": "-cursorDown",
+    "when": "textInputFocus",
+  },
+  {
+    "key": "alt+j",
+    "command": "cursorUp",
+    "when": "textInputFocus",
+  },
+  {
+    "key": "up",
+    "command": "-cursorUp",
+    "when": "textInputFocus",
+  },
+  {
+    "key": "alt+i",
+    "command": "cursorLineEnd",
+  },
+  {
+    "key": "ctrl+end",
+    "command": "cursorBottom",
+    "when": "textInputFocus",
+  },
+  {
+    "key": "ctrl+end",
+    "command": "-cursorBottom",
+    "when": "textInputFocus",
+  },
+  {
+    "key": "up",
+    "command": "cursorUp",
+    "when": "textInputFocus",
+  },
+  {
+    "key": "down",
+    "command": "cursorDown",
+    "when": "textInputFocus",
+  },
+  {
+    "key": "right",
+    "command": "cursorRight",
+    "when": "textInputFocus",
+  },
+  {
+    "key": "ctrl+w",
+    "command": "-workbench.action.closeActiveEditor",
+  },
+  {
+    "key": "ctrl+;",
+    "command": "editor.toggleFold",
+    "when": "editorTextFocus && foldingEnabled",
+  },
+  {
+    "key": "ctrl+k ctrl+l",
+    "command": "-editor.toggleFold",
+    "when": "editorTextFocus && foldingEnabled",
+  },
+  {
+    "key": "shift+alt+p",
+    "command": "editor.foldAllMarkerRegions",
+    "when": "editorTextFocus && foldingEnabled",
+  },
+  {
+    "key": "ctrl+k ctrl+8",
+    "command": "-editor.foldAllMarkerRegions",
+    "when": "editorTextFocus && foldingEnabled",
+  },
+  {
+    "key": "ctrl+w",
+    "command": "workbench.action.closeActiveEditor",
+  },
+  {
+    "key": "alt+p",
+    "command": "workbench.action.nextEditor",
+  },
+  {
+    "key": "ctrl+pagedown",
+    "command": "-workbench.action.nextEditor",
+  },
+  {
+    "key": "alt+o",
+    "command": "workbench.action.previousEditor",
+  },
+  {
+    "key": "ctrl+pageup",
+    "command": "-workbench.action.previousEditor",
+  },
+  {
+    "key": "ctrl+k ctrl+l",
+    "command": "editor.action.selectFromAnchorToCursor",
+    "when": "editorTextFocus && selectionAnchorSet",
+  },
+  {
+    "key": "ctrl+k ctrl+k",
+    "command": "-editor.action.selectFromAnchorToCursor",
+    "when": "editorTextFocus && selectionAnchorSet",
+  },
+  {
+    "key": "ctrl+shift+delete",
+    "command": "editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly",
+  },
+  {
+    "key": "ctrl+shift+k",
+    "command": "-editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly",
+  },
+  {
+    "key": "ctrl+shift+oem_2", // Or any preferred shortcut
+    "command": "editor.action.smartSelect.expand",
+    "when": "editorTextFocus",
+  },
+  {
+    "key": "alt+/",
+    "command": "editor.action.triggerParameterHints",
+    "when": "editorHasSignatureHelpProvider && editorTextFocus",
+  },
+  {
+    "key": "ctrl+shift+space",
+    "command": "-editor.action.triggerParameterHints",
+    "when": "editorHasSignatureHelpProvider && editorTextFocus",
+  },
+  {
+    "key": "shift+alt+u",
+    "command": "cursorLeft",
+    "when": "textInputFocus",
+  },
+  {
+    "key": "alt+u",
+    "command": "cursorLineStart",
+  },
+  {
+    "key": "alt+n",
+    "command": "cursorWordStartLeft",
+  },
+  {
+    "key": "ctrl+u",
+    "command": "-cursorUndo",
+    "when": "textInputFocus",
+  },
+  {
+    "key": "alt+m",
+    "command": "cursorWordStartRight",
+  },
+  {
+    "key": "shift+alt+m",
+    "command": "cursorWordEndRightSelect",
+    "when": "textInputFocus && !accessibilityModeEnabled",
+  },
+  {
+    "key": "shift+alt+n",
+    "command": "cursorWordLeftSelect",
+    "when": "textInputFocus && !accessibilityModeEnabled",
+  },
+  {
+    "key": "alt+a",
+    "command": "chatgpt.addFileToThread",
+  },
+  {
+    "key": "alt+s",
+    "command": "chatgpt.addToThread",
+  },
+  {
+    "key": "alt+q",
+    "command": "chatgpt.openSidebar",
+  },
+]
